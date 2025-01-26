@@ -18,11 +18,17 @@
   <link rel="stylesheet" href="{{ get_url(path='assets/css/custom.css') | safe }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   {%- if config.extra.favicon -%}
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path = 'images/favicon/apple-touch-icon.png') | safe }}">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path = 'images/favicon/favicon-32x32.png') | safe }}">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path = 'images/favicon/favicon-16x16.png') | safe }}">
-    <link rel="manifest" href="{{ get_url(path = 'images/favicon/site.webmanifest') | safe }}">
-    <link rel="mask-icon" href="{{ get_url(path = 'images/favicon/safari-pinned-tab.svg') | safe }}" color="#5bbad5">
+    <!--link rel="apple-touch-icon" sizes="180x180" href="{{ get_url(path = 'images/favicon/apple-touch-icon.png') | safe }}"-->
+    <!--link rel="icon" type="image/png" sizes="32x32" href="{{ get_url(path = 'images/favicon/favicon-32x32.png') | safe }}"-->
+    <!--link rel="icon" type="image/png" sizes="16x16" href="{{ get_url(path = 'images/favicon/favicon-16x16.png') | safe }}"-->
+    <!--link rel="manifest" href="{{ get_url(path = 'images/favicon/site.webmanifest') | safe }}"-->
+    <!--link rel="mask-icon" href="{{ get_url(path = 'images/favicon/safari-pinned-tab.svg') | safe }}" color="#5bbad5"-->
+    <link rel="icon" type="image/png" href="/images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/images/favicon/site.webmanifest" />
     <meta name="msapplication-TileColor" content="#2d89ef">
     <meta name="theme-color" content="#ffffff">
   {%- endif -%}
